@@ -28,6 +28,17 @@ This project needs following to be installed on the Windows development machine.
 The following command is used to execute the code and reports are generated in target folder:
 * Android emulator should be running before the test starts. 
 	* It can be started from android studio > tools > AVD Manager > Emulator 
+* &Frankly app should be installed to the emulator.
+	* Get emulator device id ( android debugger bridge, installs with android studio)
+```
+>adb devices
+List of devices attached
+emulator-5554   device
+```
+	* Install the app
+```
+>adb -s emulator-5554 install andfrankly_2.2.3_20180615.apk
+```
 * capabilities.properties should be updated with correct values.
 
 ```
