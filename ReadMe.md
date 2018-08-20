@@ -8,7 +8,7 @@ Project to test &Frankly Android mobile application with Java and Appium.
 Technology stack used:
 * The code is build on Windows environment.
 * Appium is used to execute on debug version of the &Frankly android application.
-* Programming is done in Java and project is build with mvn.
+* Programming is done in Java and project is build with maven build tool.
 * Logs for the user action are generated in file ./log/log-YYYYMMDDTHHmmSS.log
 
 ## Software Requirement
