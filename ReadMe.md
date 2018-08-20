@@ -1,7 +1,7 @@
 # AutomationTestAndFrankly
 
 Project to test &Frankly Android mobile application with Java and Appium.
-
+[Demo video privately shared](https://youtu.be/9y4dPIGJ52I) 
 
 ## About
 
@@ -25,7 +25,7 @@ This project needs following to be installed on the Windows development machine.
 
 ## Usage
 
-The following commands are mostly used:
+The following command is used to execute the code and reports are generated in target folder:
 ```
 mvn clean install
 ```
