@@ -28,7 +28,7 @@ This project needs following to be installed on the Windows development machine.
 
 * Android emulator should be running before the test starts. 
 	* It can be started from android studio > tools > AVD Manager > Emulator 
-* &Frankly application should be installed to the emulator.
+* &Frankly application should be installed on the emulator.
 	* Get emulator device id ( android debugger bridge, installs with android studio).
 	* Install the application.
 ```

@@ -23,21 +23,13 @@ public abstract class BaseTest {
 	private Properties loadProperties(String name) {
 		logger.debug("Loading properties: " + name);
 		Properties p = new Properties();
-		InputStream input = null;
-		try {
-			input = new FileInputStream(name);
+		
+		try (InputStream input = new FileInputStream(name))  {
 			p.load(input);
 		} catch (IOException ex) {
 			ex.printStackTrace();
-		} finally {
-			if (input != null) {
-				try {
-					input.close();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			}
-		}
+		} 
+		
 		return p;
 	}
 

@@ -1,0 +1,30 @@
+17:18:42.499 INFO  c.a.andriod.app.test.TestAndroidApp - Verifying &Frankly on Android
+17:18:55.797 INFO  c.a.andriod.app.test.TestAndroidApp - Verify Login
+17:18:56.490 INFO  c.a.andriod.app.test.TestAndroidApp - Enter email: demo@andfrankly.com
+17:19:03.174 INFO  c.a.andriod.app.test.TestAndroidApp - Click next button
+17:19:05.530 INFO  c.a.andriod.app.test.TestAndroidApp - Enter password :demoaccount
+17:19:10.849 INFO  c.a.andriod.app.test.TestAndroidApp - Click password next button
+17:19:13.085 INFO  c.a.andriod.app.test.TestAndroidApp - Assert welcome message: Your company is giving you the opportunity to make your voice heard!
+17:19:13.117 INFO  c.a.andriod.app.test.TestAndroidApp - Swipe 1 onboarding
+17:19:14.015 INFO  c.a.andriod.app.test.TestAndroidApp - Verify page title: &frankly is developed to help you and your colleagues create an even better workplace.
+17:19:14.041 INFO  c.a.andriod.app.test.TestAndroidApp - Swipe 2 onboarding
+17:19:14.907 INFO  c.a.andriod.app.test.TestAndroidApp - Verify page title: You will get pulsed questions
+17:19:14.953 INFO  c.a.andriod.app.test.TestAndroidApp - Swipe 3 onboarding
+17:19:15.903 INFO  c.a.andriod.app.test.TestAndroidApp - Verify page title: You will always be anonymous.
+17:19:15.952 INFO  c.a.andriod.app.test.TestAndroidApp - Click i-understand button
+17:19:16.731 INFO  c.a.andriod.app.test.TestAndroidApp - Click start button
+17:19:18.892 INFO  c.a.andriod.app.test.TestAndroidApp - Click questions button
+17:19:19.880 INFO  c.a.andriod.app.test.TestAndroidApp - Click intro questions image
+17:19:34.675 INFO  c.a.andriod.app.test.TestAndroidApp - Verify company logo displays.
+17:19:34.700 INFO  c.a.andriod.app.test.TestAndroidApp - Answer first question: (I like my work at this very point in time)
+17:19:34.733 INFO  c.a.andriod.app.test.TestAndroidApp - Click first question image
+17:19:38.353 INFO  c.a.andriod.app.test.TestAndroidApp - Swipe to max upwards
+17:19:39.582 INFO  c.a.andriod.app.test.TestAndroidApp - Smilye y: 471, Line y: 471
+17:19:39.583 INFO  c.a.andriod.app.test.TestAndroidApp - Add comment to second question and skip (If you had the chance today, would you re-apply for your current job?)
+17:19:39.655 INFO  c.a.andriod.app.test.TestAndroidApp - Click next question button
+17:19:43.019 INFO  c.a.andriod.app.test.TestAndroidApp - Click comment button
+17:19:44.482 INFO  c.a.andriod.app.test.TestAndroidApp - Enter comment: "I think I would re-apply"
+17:19:57.944 INFO  c.a.andriod.app.test.TestAndroidApp - Click skip question button
+17:19:58.794 INFO  c.a.andriod.app.test.TestAndroidApp - Click skip question dialog
+17:20:00.403 INFO  c.a.andriod.app.test.TestAndroidApp - Verify page is 3rd question and message: Describe your current stress levels
+17:20:00.436 INFO  c.a.andriod.app.test.TestAndroidApp - Close the &frankly app

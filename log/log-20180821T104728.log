@@ -1,0 +1,8 @@
+10:47:32.967 INFO  c.a.a.a.t.TestAndroidAppWithPageObject - Verifying &Frankly on Android
+10:47:44.104 INFO  c.a.a.a.t.TestAndroidAppWithPageObject - Verify Login
+10:47:44.105 INFO  c.a.android.app.pages.Login - Enter email: demo@andfrankly.com
+10:47:49.922 INFO  c.a.android.app.pages.Login - Click next button
+10:47:50.831 INFO  c.a.android.app.pages.Login - Enter password :demoaccount
+10:47:58.262 INFO  c.a.android.app.pages.Login - Click password next button
+10:47:59.079 INFO  c.a.android.app.pages.Login - Get welcome message
+10:48:01.429 INFO  c.a.a.a.t.TestAndroidAppWithPageObject - Close the &frankly app

@@ -15,9 +15,6 @@
       </encoder>
    </appender>
   
-   <!-- <root level="info"> --> 
-   <!-- <root level="debug"> --> 
-  <!-- <root level="trace"> -->
   <root level="info">
     <appender-ref ref="STDOUT" />
     <appender-ref ref="FILE" />

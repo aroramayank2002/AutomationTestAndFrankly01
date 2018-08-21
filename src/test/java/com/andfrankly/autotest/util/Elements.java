@@ -22,5 +22,6 @@ public class Elements {
 	public static final String ID_PAGE_3_TITLE = "com.andfrankly.app:id/tutorial_misc_title_1";
 	public static final String ID_PAGE_4_TITLE = "com.andfrankly.app:id/tutorial_title";
 	public static final String ID_COMPANY_LOGO = "com.andfrankly.app:id/toolbar_logo";
+	public static final String ID_THIRD_QUESTION_MESSAGE = "com.andfrankly.app:id/question_title";
 	
 }

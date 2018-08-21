@@ -1,0 +1,22 @@
+12:00:04.641 INFO  c.a.a.a.t.TestAndroidAppWithPageObject - Verifying &Frankly on Android
+12:00:19.892 INFO  c.a.a.a.t.TestAndroidAppWithPageObject - Verify Login
+12:00:19.893 INFO  c.a.android.app.pages.Login - Enter email: demo@andfrankly.com
+12:00:26.340 INFO  c.a.android.app.pages.Login - Click next button
+12:00:27.435 INFO  c.a.android.app.pages.Login - Enter password :demoaccount
+12:00:35.546 INFO  c.a.android.app.pages.Login - Click password next button
+12:00:36.623 INFO  c.a.android.app.pages.Login - Get welcome message
+12:00:39.026 INFO  c.a.android.app.pages.OnBoarding - Swipe onboarding
+12:00:40.107 INFO  c.a.android.app.pages.OnBoarding - Swipe onboarding
+12:00:41.354 INFO  c.a.android.app.pages.OnBoarding - Swipe onboarding
+12:01:04.049 INFO  c.a.a.a.t.TestAndroidAppWithPageObject - Answer first question: (I like my work at this very point in time)
+12:01:04.049 INFO  c.a.android.app.pages.OnBoarding - Click first question image
+12:01:07.913 INFO  c.a.android.app.pages.OnBoarding - Swipe to max upwards
+12:01:09.389 INFO  c.a.a.a.t.TestAndroidAppWithPageObject - Smilye y: 471, Line y: 471
+12:01:09.390 INFO  c.a.a.a.t.TestAndroidAppWithPageObject - Add comment to second question and skip (If you had the chance today, would you re-apply for your current job?)
+12:01:09.390 INFO  c.a.android.app.pages.OnBoarding - Click next question button
+12:01:09.935 INFO  c.a.android.app.pages.OnBoarding - Click comment button
+12:01:11.927 INFO  c.a.android.app.pages.OnBoarding - Enter comment: "I think I would re-apply"
+12:01:31.518 INFO  c.a.android.app.pages.OnBoarding - Click skip question button
+12:01:31.852 INFO  c.a.android.app.pages.OnBoarding - Click skip question dialog
+12:01:32.736 INFO  c.a.android.app.pages.OnBoarding - Verify page is 3rd question and message
+12:01:33.716 INFO  c.a.a.a.t.TestAndroidAppWithPageObject - Close the &frankly app
