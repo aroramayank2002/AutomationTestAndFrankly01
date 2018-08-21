@@ -15,6 +15,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,7 +26,7 @@ import com.andfrankly.autotest.util.Elements;
 public class QuestionsPageFactory extends BaseTest {
 	Logger logger = LoggerFactory.getLogger(QuestionsPageFactory.class);
 	private AndroidDriver<MobileElement> driver;
-
+	WebDriverWait wait;
 	
 	@FindBy(how = How.XPATH, using = Elements.XPATH_SMILEY)
 	WebElement smiley;
@@ -55,8 +57,9 @@ public class QuestionsPageFactory extends BaseTest {
 	
 	public QuestionsPageFactory(AndroidDriver<MobileElement> driver) {
 		this.driver = driver;
-		AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver, 10);
+		AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(this.driver, 10);
 		PageFactory.initElements(factory, this);
+		wait = new WebDriverWait(this.driver, 20);
 	}
 
 	public void clickFirstQuestion()  {
@@ -66,6 +69,7 @@ public class QuestionsPageFactory extends BaseTest {
 
 	public void swipeSmileyToMax()  {
 		logger.info("Swipe to max upwards");
+		wait.until(ExpectedConditions.visibilityOf(smiley));
 		TouchAction<AndroidTouchAction> action = new TouchAction<AndroidTouchAction>(
 				driver);
 		action.press(PointOption.point(522, 1055));
